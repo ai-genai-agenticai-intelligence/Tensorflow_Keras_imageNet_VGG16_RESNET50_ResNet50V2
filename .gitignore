@@ -1,0 +1,15 @@
+# Local data, notebooks, and image samples are not needed to deploy the Streamlit app.
+*.ipynb
+*.csv
+*.jpg
+*.jpeg
+*.png
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Streamlit local configuration
+.streamlit/secrets.toml
